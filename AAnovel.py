@@ -2,6 +2,7 @@
 Tung Hoang - 03/12/20
 The following program is the console of an book searching and adding application.
 The user will be able to request a book report and add a new novel from existing author
+Show that I know how to edit and commit my code
 
 Citation:
 Tabulate table: https://pypi.org/project/tabulate/#files
