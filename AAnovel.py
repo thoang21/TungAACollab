@@ -53,7 +53,7 @@ def get_books(key):
 
 def add_book(book, title, genre, writer):
     c.execute("INSERT INTO Book (BookID, Title, Genre, WriterID) Values (?, ?, ?, ?);",(str(book), str(title), str(genre), str(writer)))
-    #DO THIS COMMIT ANY TIME YOU CHANGE THE DATABASE - after a complete transaction!!!
+    con.commit() #DO THIS COMMIT ANY TIME YOU CHANGE THE DATABASE - after a complete transaction!!!
 
 
 # The following VIEW functions are specific to a console based application
